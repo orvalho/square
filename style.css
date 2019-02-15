@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+:root {
+  --container-width: 300px;
+  --container-height: var(--container-width);
+  --line-width: 100%;
+  --line-height: 25%;
+}
+
+.container {
+  width: var(--container-width);
+  height: var(--container-height);
+}
+
+.line {
+  width: var(--line-width);
+  height: var(--line-height);
+}
+
+.line1 {
+  background-image: linear-gradient(90deg, #2DB3B3 25%, #52A3CC 25% 50%, #7EA1E5 50% 75%, #AAAAF2 75%);
+}
+
+.line2 {
+  background-image: linear-gradient(90deg, #2D4EB3 25%, #5C52CC 25% 50%, #A87EE5 50% 75%, #E0AAF2 75%);
+}
+
+.line3 {
+  background-image: linear-gradient(90deg, #702DB3 25%, #B852CC 25% 50%, #E57ED5 50% 75%, #F2AACE 75%);
+}
+
+.line4 {
+  background-image: linear-gradient(90deg, #B32D91 25%, #CC5285 25% 50%, #E57E88 50% 75%, #F2BCAA 75%);
+}
